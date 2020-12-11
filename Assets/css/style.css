@@ -1,0 +1,313 @@
+/* initialization */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+html, body{
+    margin-top: 40px !important;
+}
+a:focus{
+    outline: none !important;
+    border: none !important;
+}
+button:focus{
+    outline: none !important;
+    border: none !important;
+}
+
+
+
+
+/* for all  */
+.theme_color{
+    color: #757E47 !important;
+}
+.theme_border{
+    border: 2px solid #757E47;
+}
+.theme_border2{
+    border: 2px solid #f1f1f1;
+}
+.navbar{
+    height: 80px;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.width_half{
+    width: 50%;
+}
+.width_full{
+    width: 100%;
+}
+.main_listing{
+    width: 500px;
+    height:300px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-bottom: 10px;
+}
+.location_p{
+    width: 150px;
+    height: 100px;
+}
+
+
+
+/* for all pages */
+.delete_btn{
+    width:80px;
+    color: #757E47;
+    background: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.delete_btn:hover{
+    background: #757E47;
+    color: #fff;
+}
+.chat_btn{
+    width:80px;
+    color: #fff;
+    background: #757E47;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.chat_btn:hover{
+    background: #fff;
+    color: #757E47;
+}
+.vw_mr_btn{
+    width:100px;
+    color: #fff;
+    background: #757E47;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.vw_mr_btn:hover{
+    background: #fff;
+    color: #757E47;
+}
+.select_body {
+    width: 160px;
+    margin-top: 16px;
+}
+.select_recent{
+    width: 160px;
+    margin-left: auto;
+}
+
+
+
+
+/* inbox.php  */
+.chat_area{
+    margin-bottom: 500px;
+}
+#profile_listing{
+    margin-bottom: 300px;
+}
+.write_msg{
+    display: none;
+}
+.start_chat{
+    width: 100% !important;
+    border-radius: 0% !important;
+    transition: 0.2s;
+}
+.start_chat:hover{
+    background: #757E47;
+}
+.start_chat:hover .click_user_field{
+    color:#fff;
+}
+
+.incoming_msg{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+/* header.php  */
+
+#header_msg_counter {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: -10px;
+    right: 25px;
+    color: #757E47;
+}
+header{
+    padding-top: 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    background:#fff;
+    z-index: 999;
+}
+.add_listing_btn{
+    background-color: #757E47;
+    color: #fff;
+    width: 100px;
+    height: 38px;
+    font-size: 15px;
+    padding: 0;
+    transition: 0.2s;
+}
+.add_listing_btn:hover{
+    background: #fff;
+    color: #757E47;
+}
+.user_icon{
+    font-size: 40px;
+    padding-left: 30px;
+    color: #999;
+    transition: 0.2s;
+}
+.user_icon:hover{
+    transform: scale(1.1);
+}
+.comment_box{
+    font-size: 40px;
+    color: #999;
+    transition: 0.2s;
+}
+.comment_box:hover{
+    transform: scale(1.1);
+}
+.logo_link{
+    text-decoration: none;
+    outline: none;
+}
+.logo_link:focus {
+    border: none;
+    outline: none;
+}
+
+/* header (Modal)  */
+.modal_heading{
+    margin-left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#listing_currency{
+    width:40%;
+}
+#listing_amount{
+    width:40%;
+}
+.create_listing_btn{
+    width:120px;
+    color: #fff;
+    background: #757E47;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.create_listing_btn:hover{
+    background: #fff;
+    color: #757E47;
+}
+
+
+
+
+
+/* footer.php  */
+footer{
+    width: 100%;
+    height: 10vh;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+.footer_menu{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.footer_menu ul li{
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+    
+}
+.footer_menu ul li:first-child{
+    margin-left: 0;
+}
+.footer_menu ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    
+}
+.footer_menu ul li a:hover{
+    text-decoration: none;
+    color: #757e47;
+}
+.footer_menu ul{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* login.php  */
+#login_form{
+    width:350px;
+    height:400px;
+    position:relative;
+    margin: auto;
+    padding: auto;
+}
+#login_button{
+    background-color: #757E47;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+}
+#signup_back_button:hover{
+    text-decoration: none;
+}
+
+
+
+
+/* sinup.php  */
+#signup_form{
+    width:350px;
+    height:450px;
+    position:relative;
+    margin: auto;
+    padding: auto;
+}
+#signup_button{
+    background-color: #757E47;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+#login_back_button:hover{
+    text-decoration: none;
+}
+
+
+
